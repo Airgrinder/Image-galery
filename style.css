@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    border-bottom: 6px solid orange;
+    width: 100%;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 1280px;
+    height: 70px;
+}
+
+.logo {
+    display: flex;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    align-items: center;
+}
+
+.logo:first-child {
+}
+
+.logo img {
+    margin-right: 10px;
+    filter: invert(63%) sepia(11%) saturate(4748%) hue-rotate(0deg) brightness(106%) contrast(105%);
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search label {
+    display: flex;
+}
+
+.input {
+    width: 340px;
+    height: 38px;
+    border: 1px solid #dddddd;
+    border-radius: 25px;
+    font-size: 1rem;
+    padding: 0 10px;
+}
+
+.close {
+    position: relative;
+    border: 0;
+    background-image: url("assets/close.png");
+    background-color: #fff;
+    width: 22px;
+    height: 22px;
+    background-size: 23px 23px;
+    align-self: center;
+    justify-self: flex-end;
+    right: 58px;
+    transition: 0.5s;
+}
+
+.close:hover {
+    filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(62deg) brightness(108%) contrast(98%);
+}
+
+.btn {
+    position: relative;
+    border: 0;
+    background-image: url("assets/search.png");
+    background-color: #fff;
+    width: 22px;
+    height: 22px;
+    background-size: 23px 23px;
+    align-self: center;
+    justify-self: flex-end;
+    right: 63px;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(62deg) brightness(108%) contrast(98%);
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    max-width: 1280px;
+    flex-wrap: wrap;
+}
+
+.main-img {
+    width: 400px;
+    height: 266px;
+    margin: 10px;
+    background-position: center;
+    background-size: cover;
+}
+
+footer {
+    bottom: 0;
+    border-top: 6px solid orange;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-description {
+    font-family: 'Inter', sans-serif;
+    font-size: 22px;
+    display: flex;
+    color: white;
+}
+
+.footer-description span{
+    margin: 10px;
+}
+
+.footer-description a {
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.footer-description a:hover {
+    filter: invert(56%) sepia(24%) saturate(2733%) hue-rotate(359deg) brightness(101%) contrast(107%);
+}
+
+.footer-rss {
+    transition: 0.5s;
+}
+
+.footer-rss:hover{
+    filter: invert(56%) sepia(24%) saturate(2733%) hue-rotate(359deg) brightness(101%) contrast(107%);
+}
